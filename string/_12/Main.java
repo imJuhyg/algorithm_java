@@ -20,7 +20,7 @@ public class Main {
            for(int j=0; j<7; j++) {
                if(str.charAt(j) == '#') binaryString.append('1');
                else if(str.charAt(j) == '*') binaryString.append('0');
-           }
+           } 
            int decimal = Integer.parseInt(binaryString.toString(), 2);
             answer.append((char)decimal);
 
