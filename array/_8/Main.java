@@ -16,7 +16,7 @@ public class Main {
             int rank = 1; // 자기자신을 1등으로 보고
             for(int j=0; j<input.length; j++) {
                 if(Integer.parseInt(input[i]) < Integer.parseInt(input[j])) rank++; // 자기자신보다 큰 점수를 만나면 rank를 증가시킨다.
-            }
+            } 
             ranking[i] = rank;
         }
 
