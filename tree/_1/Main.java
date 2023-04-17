@@ -21,19 +21,12 @@ public class Main {
         }
 
         TreeSet<Integer> set = new TreeSet<>(Collections.reverseOrder());
-        int sum = 0;
         for(int i=0; i<N; i++) {
-            sum += arr[i];
             for(int j=i+1; j<N; j++) {
-                sum += arr[j];
                 for(int k=j+1; k<N; k++) {
-                    sum += arr[k];
-                    set.add(sum);
-                    sum -= arr[k];
+                    set.add(arr[i]+arr[j]+arr[k]);
                 }
-                sum -= arr[j];
             }
-            sum -= arr[i];
         }
         LinkedList<Integer> list = new LinkedList<>(set);
         if(list.size() < K-1) System.out.println(-1);
