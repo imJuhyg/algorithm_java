@@ -1,4 +1,4 @@
-package array._13;
+package simulation._1;
 
 import java.io.BufferedReader;
 import java.io.IOException;
