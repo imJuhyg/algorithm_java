@@ -61,6 +61,7 @@
 #### [삽입 정렬](https://github.com/imJuhyg/algorithm_java/blob/Sorting/sorting/_3/Main.java)
 #### [장난꾸러기](https://github.com/imJuhyg/algorithm_java/blob/Sorting/sorting/_4/Main.java)
 #### [좌표 정렬(Comparator)](https://github.com/imJuhyg/algorithm_java/blob/Sorting/sorting/_5/Main.java)
+#### [**이분검색(Heap Sort구현)](https://github.com/imJuhyg/algorithm_java/blob/Sorting/sorting/_6/Main.java)
   
 ## Binary-search
 
