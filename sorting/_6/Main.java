@@ -5,7 +5,7 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.Arrays;
 
-// 이분검색(Heap Sort구현) - O(nlog n) 만족
+// **이분검색(Heap Sort구현) - O(nlog n) 만족
 public class Main {
     static class MinHeap {
         private int[] arr;
