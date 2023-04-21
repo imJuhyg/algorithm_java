@@ -3,83 +3,55 @@ package sorting._6;
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
-import java.util.Arrays;
+import java.util.ArrayList;
 
-// **이분검색(Heap Sort구현)
-// O(nlog n) 만족, n의 개수가 많을 때 배열을 확장/축소하는 과정에서 메모리 초과 가능성 있음.
+// **이분검색(Heap Sort구현) - O(nlog n) 만족
 public class Main {
     static class MinHeap {
-        private int[] arr;
+        private ArrayList<Integer> list;
 
         public MinHeap() {
-            arr = new int[0];
+            list = new ArrayList<>();
         }
 
         void add(int item) {
-            // 배열 확장
-            int[] tempArray = new int[arr.length+1];
-            for(int i=0; i<arr.length; i++) {
-                tempArray[i] = arr[i];
-            }
-            tempArray[tempArray.length-1] = item;           // 1. 확장된 배열 마지막에 값 추가
-            arr = tempArray;
+            list.add(item);                                         // 1. 힙의 마지막에 값을 추가한다.
+            int child = list.size()-1;
 
-            // heapify
-            for(int i=arr.length-1; i>0; i--) {             // 2. 말단부터 heapify
-                int child = i;
+            while((child-1)/2 >= 0) {                                // 2. 힙 구조를 만족시키도록 재구성한다.
+                int parent = (child-1)/2;
 
-                while(child > 0) {
-                    int parent = (child-1)/2;
+                if(list.get(parent) <= list.get(child)) break;
 
-                    if(arr[child] > arr[parent]) break;
+                int temp = list.get(parent);
+                list.set(parent, list.get(child));
+                list.set(child, temp);
 
-                    int temp = arr[parent];
-                    arr[parent] = arr[child];
-                    arr[child] = temp;
-
-                    child = parent;
-                }
+                child = parent;
             }
         }
 
         int remove() {
-            if(arr.length == 1) return arr[0];
+            int removed = list.get(0);                              // 1. 힙의 루트를 삭제한다.
+            list.set(0, list.get(list.size()-1));                   // 2. 힙의 마지막 요소를 루트로 이동시킨다.
+            list.remove(list.size()-1);
 
-            int removed = arr[0];                           // 1. 루트노드를 꺼낸다.
-            int last = arr[arr.length-1];
+            int parent = 0;
+            while(parent*2+1 < list.size()) {                       // 3. 힙 구조를 만족시키도록 재구성한다.
+                int child = parent*2+1;
 
-            // 배열 축소
-            int[] tempArray = new int[arr.length-1];
-            tempArray[0] = last;                            // 2. 마지막 요소를 루트로 이동시킨다.
-            for(int i=1; i<tempArray.length; i++) {
-                tempArray[i] = arr[i];
+                // 자식노드가 두 개 있다면 더 작은 자식노드를 Swap 한다.
+                if(child+1 < list.size() && list.get(child+1) < list.get(child)) child++;
+                if(list.get(parent) <= list.get(child)) break;
+
+                int temp = list.get(parent);
+                list.set(parent, list.get(child));
+                list.set(child, temp);
+
+                parent = child;
             }
-            arr = tempArray;
 
-            // heapify
-            for(int i=0; i<arr.length-1; i++) {             // 3. 루트부터 heapify
-                int parent = i;
-
-                while(parent*2+1 < arr.length) {
-                    int child = parent*2+1;
-
-                    // 자식 노드가 두 개인 경우 값이 더 작은 노드를 swap 해야한다.
-                    if(child+1 < arr.length && arr[child+1] < arr[child]) child++;
-                    if(arr[parent] < arr[child]) break;
-
-                    int temp = arr[child];
-                    arr[child] = arr[parent];
-                    arr[parent] = temp;
-
-                    parent = child;
-                }
-            }
             return removed;
-        }
-
-        @Override
-        public String toString() {
-            return Arrays.toString(arr);
         }
     }
 
@@ -88,10 +60,9 @@ public class Main {
         String[] input = br.readLine().split(" ");
         int N = Integer.parseInt(input[0]);
         int M = Integer.parseInt(input[1]);
-
         String[] input2 = br.readLine().split(" ");
-        MinHeap heap = new MinHeap();
 
+        MinHeap heap = new MinHeap();
         for(int i=0; i<N; i++) {
             heap.add(Integer.parseInt(input2[i]));
         }
