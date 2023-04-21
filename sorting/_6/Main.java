@@ -5,14 +5,14 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.Arrays;
 
-// **이분검색(Heap Sort구현) - O(nlog n) 만족
+// **이분검색(Heap Sort구현)
+// O(nlog n) 만족, n의 개수가 많을 때 배열을 확장/축소하는 과정에서 메모리 초과 가능성 있음.
 public class Main {
     static class MinHeap {
         private int[] arr;
 
         public MinHeap() {
             arr = new int[0];
-
         }
 
         void add(int item) {
