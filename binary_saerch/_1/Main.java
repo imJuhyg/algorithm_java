@@ -5,7 +5,7 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.Arrays;
 
-// *이분검색(Binary-search)
+// *이분검색(Binary-search) 
 // 정렬된 배열에서 특정 값을 찾고자 할 때 중앙값을 이용하여 탐색하는 알고리즘
 // 순차적 탐색 방법보다 시간 효율성이 더 높다. O(n) => O(log n)
 // 1. 정렬된 배열에서 중앙값(lt+rt)/2 = mid 를 확인한다.
