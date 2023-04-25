@@ -77,7 +77,7 @@
 
   
 ## Brute-force
-
+#### [N과 M(Permutation)](https://github.com/imJuhyg/algorithm_java/blob/Brute-force/brute_force/_1/Main.java)
   
 ## Greedy
 
