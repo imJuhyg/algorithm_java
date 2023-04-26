@@ -63,6 +63,7 @@
 #### [좌표 정렬(Comparator)](https://github.com/imJuhyg/algorithm_java/blob/Sorting/sorting/_5/Main.java)
 #### [**이분검색(Heap Sort구현)](https://github.com/imJuhyg/algorithm_java/blob/Sorting/sorting/_6/Main.java)
 #### [***[BOJ]힙 정렬(2220)](https://github.com/imJuhyg/algorithm_java/blob/Sorting/sorting/_7/Main.java)
+#### [*[Programmers]가장 큰 수(compareTo)](https://github.com/imJuhyg/algorithm_java/tree/Sorting/sorting/_8)
   
 ## Binary-search
 #### [*이분검색](https://github.com/imJuhyg/algorithm_java/blob/Binary-search/binary_saerch/_1/Main.java)
