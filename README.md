@@ -79,7 +79,11 @@
   
 ## Brute-force
 #### [N과 M(Permutation)](https://github.com/imJuhyg/algorithm_java/blob/Brute-force/brute_force/_1/Main.java)
+
   
+## Backtracking
+#### [N과 M(Backtracking)](https://github.com/imJuhyg/algorithm_java/blob/Backtracking/backtracking/_1/Main.java)
+    
 ## Greedy
 
   
