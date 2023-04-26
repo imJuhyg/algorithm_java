@@ -14,7 +14,7 @@ public class Main {
     public static String solution(int[] numbers) {
         Integer[] copy = Arrays.stream(numbers).boxed().toArray(Integer[]::new);
 
-        // 붙이고/반대로 붙였을 때 더 큰거 찾기
+        // 붙이고/반대로 붙였을 때 더 큰거 찾기  
         Arrays.sort(copy, new Comparator<Integer>() {
             @Override
             public int compare(Integer o1, Integer o2) {
