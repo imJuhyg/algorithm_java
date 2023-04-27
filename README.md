@@ -67,6 +67,7 @@
   
 ## Binary-search
 #### [*이분검색](https://github.com/imJuhyg/algorithm_java/blob/Binary-search/binary_saerch/_1/Main.java)
+#### [메뉴 리뉴얼(2021 KAKAO BLIND RECRUITMENT)](https://github.com/imJuhyg/algorithm_java/blob/Backtracking/backtracking/_2/Solution.java)
   
 ## Tree
 #### [*K번째 큰 수](https://github.com/imJuhyg/algorithm_java/blob/Tree/tree/_1/Main.java)
