@@ -73,7 +73,7 @@
   
 ## Graph
 #### [*[Programmers]게임 맵 최단거리(BFS)](https://github.com/imJuhyg/algorithm_java/blob/Graph/graph/_1/Solution.java)
-#### [[programmers]네트워크(DFS)](https://github.com/imJuhyg/algorithm_java/blob/Graph/graph/_2/Solution.java)
+#### [[Programmers]네트워크(DFS)](https://github.com/imJuhyg/algorithm_java/blob/Graph/graph/_2/Solution.java)
   
 ## Union-find
 
