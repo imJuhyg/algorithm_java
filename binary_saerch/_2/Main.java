@@ -3,7 +3,6 @@ package binary_saerch._2;
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
-import java.util.ArrayList;
 
 // **뮤직비디오
 public class Main {
@@ -11,7 +10,7 @@ public class Main {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         String[] NM = br.readLine().split(" ");
         int N = Integer.parseInt(NM[0]);
-        int M = Integer.parseInt(NM[1]); 
+        int M = Integer.parseInt(NM[1]);
         String[] input = br.readLine().split(" ");
         int[] arr = new int[N];
         for(int i=0; i<N; i++) {
