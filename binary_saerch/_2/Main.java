@@ -11,7 +11,7 @@ public class Main {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         String[] NM = br.readLine().split(" ");
         int N = Integer.parseInt(NM[0]);
-        int M = Integer.parseInt(NM[1]);
+        int M = Integer.parseInt(NM[1]); 
         String[] input = br.readLine().split(" ");
         int[] arr = new int[N];
         for(int i=0; i<N; i++) {
