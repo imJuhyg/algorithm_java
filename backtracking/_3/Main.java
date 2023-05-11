@@ -4,7 +4,7 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 
-// 합이 같은 부분집합(Backtracking DFS)
+// 합이 같은 부분집합(Backtracking DFS) 
 // 1. N의 범위가 10이하이므로 조합방식을 이용해본다.
 // 2. int selected[11] 배열을 만들고
 // 2-1. 0: 예외, 1: 선택당함, 2: 선택안당함
