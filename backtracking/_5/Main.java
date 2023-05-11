@@ -5,7 +5,7 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.ArrayList;
 
-// 최대점수 구하기(DFS -> 백트래킹 방식)
+// 최대점수 구하기(Backtracking DFS)
 public class Main {
     static int M;
     static int max = Integer.MIN_VALUE; // answer
