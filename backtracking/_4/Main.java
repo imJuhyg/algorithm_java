@@ -5,7 +5,7 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.ArrayList;
 
-// 바둑이 승차(조합)
+// 바둑이 승차(Backtracking DFS)
 public class Main {
     static int C;
     static int max = Integer.MIN_VALUE;
