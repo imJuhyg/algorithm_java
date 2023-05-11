@@ -86,11 +86,11 @@
 
   
 ## Backtracking
-#### [N과 M(Backtracking)](https://github.com/imJuhyg/algorithm_java/blob/Backtracking/backtracking/_1/Main.java)
+#### [N과 M(조합만들기)](https://github.com/imJuhyg/algorithm_java/blob/Backtracking/backtracking/_1/Main.java)
 #### [메뉴 리뉴얼(2021 KAKAO BLIND RECRUITMENT)](https://github.com/imJuhyg/algorithm_java/blob/Backtracking/backtracking/_2/Solution.java)
-#### [합이 같은 부분집합(조합)](https://github.com/imJuhyg/algorithm_java/blob/Backtracking/backtracking/_3/Main.java)
-#### [바둑이 승차(조합)](https://github.com/imJuhyg/algorithm_java/blob/Backtracking/backtracking/_4/Main.java)
-#### [최대점수 구하기(DFS -> 백트래킹 방식)](https://github.com/imJuhyg/algorithm_java/blob/Backtracking/backtracking/_5/Main.java)
+#### [합이 같은 부분집합(백트래킹 DFS)](https://github.com/imJuhyg/algorithm_java/blob/Backtracking/backtracking/_3/Main.java)
+#### [바둑이 승차(백트래킹 DFS)](https://github.com/imJuhyg/algorithm_java/blob/Backtracking/backtracking/_4/Main.java)
+#### [최대점수 구하기(백트래킹 DFS)](https://github.com/imJuhyg/algorithm_java/blob/Backtracking/backtracking/_5/Main.java)
     
 ## Greedy
 
