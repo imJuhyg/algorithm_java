@@ -14,7 +14,7 @@ import java.util.*;
  * 4. 2-3 반복
  */
 
-// **최단거리(Dijkstra)
+// **최단거리(Dijkstra) - 1753
 public class Main {
     static class Node implements Comparable<Node> {
         int v; // 갈수있는 노드번호
