@@ -1,10 +1,12 @@
+package graph._4;
+
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.Arrays;
 import java.util.Collections;
 
-// *동전교환(DFS)
+// *동전교환(Recursive DFS)
 public class Main {
     static int min = Integer.MAX_VALUE;
     static int M;
