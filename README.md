@@ -96,6 +96,7 @@
 #### [최대점수 구하기(백트래킹 DFS)](https://github.com/imJuhyg/algorithm_java/blob/Backtracking/backtracking/_5/Main.java)
     
 ## Greedy
+#### [씨름 선수(Greedy)](https://github.com/imJuhyg/algorithm_java/blob/Greedy/greedy/_1/Main.java)
 
   
 ## Simulation
