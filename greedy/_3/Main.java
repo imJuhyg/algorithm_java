@@ -15,7 +15,7 @@ import java.util.Comparator;
  * 2. 순차적으로 탐색한다. '오는 시간'이면 count+1, '가는 시간'이면 count-1 한다.
  */
 public class Main {
-    static class Node implements Comparable<Node>{
+    static class Node {
         int time;
         char exist;
         public Node(int time, char exist) {
@@ -26,16 +26,6 @@ public class Main {
         @Override
         public String toString() {
             return String.format("(time: %d, exist: %c)\n", time, exist);
-        }
-
-        @Override
-        public int compareTo(Node node) {
-            if(this.time == node.time) {
-                if(node.exist == 'e') return 1;
-                else if (node.exist == 's') return -1;
-                else return 0;
-            }
-            return this.time - node.time;
         }
     }
 
