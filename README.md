@@ -100,6 +100,7 @@
 #### [회의실 배정](https://github.com/imJuhyg/algorithm_java/blob/Greedy/greedy/_2/Main.java)
 #### [*결혼식](https://github.com/imJuhyg/algorithm_java/blob/Greedy/greedy/_3/Main.java)
 #### [**최대 수입 스케쥴](https://github.com/imJuhyg/algorithm_java/blob/Greedy/greedy/_4/Main.java)
+#### [결혼식(Priority Queue 활용)](https://github.com/imJuhyg/algorithm_java/blob/Greedy/greedy/_5/Main.java)
 
   
 ## Simulation
