@@ -69,6 +69,7 @@
 #### [*이분검색](https://github.com/imJuhyg/algorithm_java/blob/Binary-search/binary_saerch/_1/Main.java)
 #### [**뮤직비디오](https://github.com/imJuhyg/algorithm_java/blob/Binary-search/binary_saerch/_2/Main.java)
 #### [*마구간 정하기](https://github.com/imJuhyg/algorithm_java/blob/Binary-search/binary_saerch/_3/Main.java)
+#### [*입국심사](https://github.com/imJuhyg/algorithm_java/blob/Binary-search/binary_saerch/_4/Solution.java)
   
 ## Tree
 #### [*K번째 큰 수](https://github.com/imJuhyg/algorithm_java/blob/Tree/tree/_1/Main.java)
