@@ -96,6 +96,7 @@
 #### [합이 같은 부분집합(백트래킹 DFS)](https://github.com/imJuhyg/algorithm_java/blob/Backtracking/backtracking/_3/Main.java)
 #### [바둑이 승차(백트래킹 DFS)](https://github.com/imJuhyg/algorithm_java/blob/Backtracking/backtracking/_4/Main.java)
 #### [최대점수 구하기(백트래킹 DFS)](https://github.com/imJuhyg/algorithm_java/blob/Backtracking/backtracking/_5/Main.java)
+#### [타겟넘버(백트래킹 DFS)](https://github.com/imJuhyg/algorithm_java/blob/Backtracking/backtracking/_6/Solution.java)
     
 ## Greedy
 #### [씨름 선수(Greedy)](https://github.com/imJuhyg/algorithm_java/blob/Greedy/greedy/_1/Main.java)
