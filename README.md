@@ -63,7 +63,7 @@
 #### [좌표 정렬(Comparator)](https://github.com/imJuhyg/algorithm_java/blob/Sorting/sorting/_5/Main.java)
 #### [**이분검색(Heap Sort구현)](https://github.com/imJuhyg/algorithm_java/blob/Sorting/sorting/_6/Main.java)
 #### [***힙 정렬](https://github.com/imJuhyg/algorithm_java/blob/Sorting/sorting/_7/Main.java)
-#### [*[Programmers]가장 큰 수(compareTo)](https://github.com/imJuhyg/algorithm_java/tree/Sorting/sorting/_8)
+#### [*가장 큰 수(compareTo)](https://github.com/imJuhyg/algorithm_java/tree/Sorting/sorting/_8)
   
 ## Binary-search
 #### [*이분검색](https://github.com/imJuhyg/algorithm_java/blob/Binary-search/binary_saerch/_1/Main.java)
@@ -76,8 +76,8 @@
 #### [*K번째 큰 수](https://github.com/imJuhyg/algorithm_java/blob/Tree/tree/_1/Main.java)
   
 ## Graph
-#### [*[Programmers]게임 맵 최단거리(BFS)](https://github.com/imJuhyg/algorithm_java/blob/Graph/graph/_1/Solution.java)
-#### [[Programmers]네트워크(DFS)](https://github.com/imJuhyg/algorithm_java/blob/Graph/graph/_2/Solution.java)
+#### [게임 맵 최단거리(BFS)](https://github.com/imJuhyg/algorithm_java/blob/Graph/graph/_1/Solution.java)
+#### [네트워크(DFS)](https://github.com/imJuhyg/algorithm_java/blob/Graph/graph/_2/Solution.java)
 #### [송아지 찾기 1(BFS)](https://github.com/imJuhyg/algorithm_java/blob/Graph/graph/_3/Main.java)
 #### [*동전교환(Recursive DFS)](https://github.com/imJuhyg/algorithm_java/blob/Graph/graph/_4/Main.java)
 #### [**최단거리(Dijkstra)](https://github.com/imJuhyg/algorithm_java/blob/Graph/graph/_5/Main.java)
