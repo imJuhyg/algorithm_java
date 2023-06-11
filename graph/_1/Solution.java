@@ -2,55 +2,50 @@ package graph._1;
 
 import java.util.*;
 
-// *[Programmers]게임 맵 최단거리
-// 1. 동서남북으로 갈 수 있는 곳을 큐에 넣는다.
-// 2. 큐에 있는 좌표를 하나씩 빼면서 이동한다.
-// 3. 이동한 거리를 계산한다. (이전 노드의 이동거리+1)
-// 4. 1로 되돌아 간다
+// 게임 맵 최단거리(BFS)
 class Solution {
-    int[] dx = {0, 0, 1, -1};
-    int[] dy = {1, -1, 0, 0};
+    int[] dx = {1, -1, 0, 0}; // 동 서 남 북
+    int[] dy = {0, 0, 1, -1};
 
     class Node {
-        int row;
-        int col;
-        int distance;
-
-        public Node(int row, int col, int distance) {
-            this.row = row;
-            this.col = col;
+        int x, y, distance;
+        public Node(int x, int y, int distance) {
+            this.x = x;
+            this.y = y;
             this.distance = distance;
         }
     }
 
     public int solution(int[][] maps) {
-        int endRow = maps.length-1;
-        int endCol = maps[0].length-1;
+        int n = maps.length;
+        int m = maps[maps.length-1].length;
+        int dest_x = m-1;
+        int dest_y = n-1;
 
+        boolean[][] visited = new boolean[n][m];
         Queue<Node> queue = new LinkedList<>();
-        queue.add(new Node(0, 0, 1));
-        boolean[][] visited = new boolean[maps.length][maps[0].length];
+        queue.offer(new Node(0, 0, 1));
 
         while(!queue.isEmpty()) {
             Node node = queue.poll();
-
-            if(node.row == endRow && node.col == endCol) {
+            if(node.x == dest_x && node.y == dest_y) {
                 return node.distance;
             }
 
             for(int i=0; i<4; i++) {
-                int nx = node.col + dx[i];
-                int ny = node.row + dy[i];
+                int nx = node.x + dx[i];
+                int ny = node.y + dy[i];
 
-                if(nx >= 0 && nx < maps[0].length && ny >= 0 && ny < maps.length) {
-                    if(visited[ny][nx]) continue;
+                if(nx >= 0 && nx < m && ny >= 0 && ny < n) {
                     if(maps[ny][nx] == 1) {
-                        queue.add(new Node(ny, nx, node.distance+1));
+                        if(visited[ny][nx]) continue;
                         visited[ny][nx] = true;
+                        queue.offer(new Node(nx, ny, node.distance+1));
                     }
                 }
             }
         }
+
         return -1;
     }
 }
