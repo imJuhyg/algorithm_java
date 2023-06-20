@@ -112,6 +112,6 @@
 #### [Least Recently Used](https://github.com/imJuhyg/algorithm_java/tree/Simulation/simulation/_1)
   
 ## Dynamic-programming
-
+#### [계단오르기(Top-down/Bottom-up)](https://github.com/imJuhyg/algorithm_java/blob/DP/dp/_1/Main.java)
   
   
