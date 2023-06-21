@@ -86,6 +86,7 @@
 #### [*단어변환(BFS)](https://github.com/imJuhyg/algorithm_java/blob/Graph/graph/_8/Solution.java)
   
 ## Union-find
+#### [친구인가?](https://github.com/imJuhyg/algorithm_java/blob/Union-find/union_find/_1/Main.java)
 
   
 ## Brute-force
