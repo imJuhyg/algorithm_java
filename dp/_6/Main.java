@@ -33,7 +33,7 @@ public class Main {
                 D[i] = Math.max(D[i], D[i - knap.w] + knap.v);
             }
         }
-        int answer = D[K];
-        System.out.println(answer);
+        
+        System.out.println(D[K]);
     }
 }
