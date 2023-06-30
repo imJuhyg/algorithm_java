@@ -5,9 +5,9 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.Arrays;
 
-// *동전교환(Knapsack problem)
+// *동전교환(Knapsack problem) - 중복으로 담을 수 있는 문제
 // 1. 거슬러줄 금액 M의 길이만큼 배열을 만들고 0을 제외한 모든 원소에 최대값을 저장한다.
-// 2. 거스름돈의 가장 적은 동전 단위부터 시작하여 그 돈으로 거슬러줄 수 있는 동전의 수를 배열에 기록한다.
+// 2. 거스름돈으로 거슬러줄 수 있는 동전의 수를 배열에 기록한다.
 // 3. 최종적으로 D[M]의 값은 이전에 거슬러줬던 금액의 최소 동전 갯수 + 1이 된다.
 public class Main {
     public static void main(String[] args) throws IOException {
