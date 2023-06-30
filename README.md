@@ -117,3 +117,4 @@
 #### [줄서기(COS Pro 1급)](https://github.com/imJuhyg/algorithm_java/blob/DP/dp/_2/Main.java)
 #### [돌다리 건너기](https://github.com/imJuhyg/algorithm_java/blob/DP/dp/_3/Main.java)  
 #### [*동전교환(Knapsack problem) - 중복으로 담을 수 있는 문제](https://github.com/imJuhyg/algorithm_java/blob/DP/dp/_4/Main.java)
+#### [*최대점수 구하기(Knapsack problem) - 중복으로 담을 수 없는 문제](https://github.com/imJuhyg/algorithm_java/blob/DP/dp/_5/Main.java)
