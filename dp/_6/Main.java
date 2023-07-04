@@ -4,6 +4,7 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 
+// 평범한 배낭(12865)
 public class Main {
     static class Knapsack {
         int w;
@@ -33,7 +34,7 @@ public class Main {
                 D[i] = Math.max(D[i], D[i - knap.w] + knap.v);
             }
         }
-        
+
         System.out.println(D[K]);
     }
 }
