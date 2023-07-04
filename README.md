@@ -120,4 +120,4 @@
 #### [*동전교환(Knapsack problem) - 중복으로 담을 수 있는 문제](https://github.com/imJuhyg/algorithm_java/blob/DP/dp/_4/Main.java)
 #### [*최대점수 구하기(Knapsack problem) - 중복으로 담을 수 없는 문제](https://github.com/imJuhyg/algorithm_java/blob/DP/dp/_5/Main.java)
 #### [평범한 배낭(12865)](https://github.com/imJuhyg/algorithm_java/blob/DP/dp/_6/Main.java)
-)
+#### [*최대 부분 증가수열(Longest Increasing Subsequence)](https://github.com/imJuhyg/algorithm_java/blob/DP/dp/_7/Main.java)
