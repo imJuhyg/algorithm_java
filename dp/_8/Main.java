@@ -3,9 +3,7 @@ package dp._8;
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
-import java.util.ArrayList;
 import java.util.Arrays;
-import java.util.Collections;
 
 // 가장 높은 탑 쌓기(1)
 public class Main {
