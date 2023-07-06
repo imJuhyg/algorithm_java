@@ -122,3 +122,4 @@
 #### [평범한 배낭(12865)](https://github.com/imJuhyg/algorithm_java/blob/DP/dp/_6/Main.java)
 #### [*최대 부분 증가수열(Longest Increasing Subsequence)](https://github.com/imJuhyg/algorithm_java/blob/DP/dp/_7/Main.java)
 #### [가장 높은 탑 쌓기(1)](https://github.com/imJuhyg/algorithm_java/blob/DP/dp/_8/Main.java)
+#### [가장 높은 탑 쌓기(2) - 2655](https://github.com/imJuhyg/algorithm_java/blob/DP/dp/_9/Main.java)
